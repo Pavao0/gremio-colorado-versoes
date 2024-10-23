@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto;
+    background-color: #D5D3CA;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #121211;
+    height: 100px;
+    align-items: center;
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+}
+
+header ul{
+    list-style: none;
+    align-content: center;
+}
+
+header ul li {
+    display: inline-flex;
+}
+
+header ul li a {
+    color: #D5D3CA;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+header ul li a:hover {
+    border: #D5D3CA 1px solid;
+}
+
+header #icone{
+    background-color: #D5D3CA;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+footer {
+    background-color: #121211;
+    padding: 40px;
+    align-items: center;
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+footer #logo-preta {
+    width: 180px;
+    height: 180px;
+    margin-left: 10px;
+    position: absolute;
+    border-radius: 20px;
+    bottom: 0;
+    left: 15px;
+}
+
+footer p {
+    color: #D5D3CA;
+    margin-left: 200px;
+}
+
+footer #redes {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    padding: 10px;
+    bottom: 0;
+    background-color: #D5D3CA;
+    border-radius: 50%;
+}
+
+footer #redes:hover {
+    background-color: #afaea7;
+    cursor: pointer;
+}
+
+
+.div{
+    text-align: center;
+    margin-bottom: 250px;
+    margin-top: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.div p{
+    margin-bottom: 20px;
+}
+
+.camisa, .moletom, .bone, .short{
+    margin-top: 50px;
+    width: 300px;
+    padding: 50px;
+    height: 400px;
+    background-color: #121211;
+    margin-bottom: 20px;
+    color: #D5D3CA;
+}
+
+.camisa img, .moletom img, .bone img, .short img{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+
+.camisa button, .moletom button, .bone button, .short button{
+    border: none;
+    background-color: #cfb645;
+    padding: 20px 40px;
+    transition: 0.2s;
+}
+
+.camisa button:hover, .moletom button:hover, .bone button:hover, .short button:hover{
+    scale: 1.1;
+}
+
+.roupas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+}
